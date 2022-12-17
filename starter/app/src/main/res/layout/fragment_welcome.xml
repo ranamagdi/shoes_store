@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- linear layout because it is a simple and small data and no need complex data!-->
+ <LinearLayout
+     android:id="@+id/welcomeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95F593"
+    tools:context=".welcomeFragment">
+
+
+     <TextView
+         android:id="@+id/welcome_textview_fragment_welcome"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="40dp"
+         android:layout_marginTop="30dp"
+         android:layout_marginLeft="110dp"
+         android:textColor="@color/cardview_dark_background"
+         android:text="@string/welcome_string_fragment_welcome"
+         android:textStyle="bold"
+      />
+
+     <TextView
+         android:id="@+id/details_textview_fragment_welcome"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="-250dp"
+         android:layout_marginTop="160dp"
+         android:text="@string/details_string_fragment_welcome"
+         android:textAlignment="center"
+         android:textColor="@color/colorPrimaryDark"
+         android:textSize="37dp" />
+
+     <Button
+         android:id="@+id/nextButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="490dp"
+         android:layout_marginLeft="-300dp"
+         android:textSize="25dp"
+         android:text="@string/next_string_fragment_welcome"
+         />
+
+ </LinearLayout>
+</layout>
