@@ -2,13 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <data>
-        <variable
-            name="viewModel"
-            type="com.udacity.shoestore.ShoesViewModel" />
 
-        <import type="android.view.View"/>
-    </data>
 
     <!-- constraint layout because it is a complex where is contain 2 number of views so, we need layout larger than them-->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -24,7 +18,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/linearLayout_shoe_list"
-            android:visibility="@{viewModel.shoesEmpty() ? View.VISIBLE : View.GONE}"
             android:orientation="vertical">
         </LinearLayout>
     </ScrollView>

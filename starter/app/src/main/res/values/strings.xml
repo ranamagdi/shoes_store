@@ -7,7 +7,7 @@
     <string name="register_string_fragment_login">Create new account</string>
     <string name="login_string_fragment_login">Login</string>
     <string name="welcome_string_fragment_welcome">Welcome</string>
-    <string name="details_string_fragment_welcome">Hi,please click Instructions to continue.</string>
+    <string name="details_string_fragment_welcome">Hi,Please click Instructions to continue.</string>
     <string name="next_string_fragment_welcome">Instructions</string>
     <string name="details_string_fragment_instruction">Next page will show you the list of shoes. please Click next to continue</string>
     <string name="Next_string_fragment_instructions">Next</string>

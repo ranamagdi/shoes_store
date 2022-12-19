@@ -24,6 +24,7 @@ class loginFragment : Fragment() {
             R.layout.fragment_login,
             container,
             false)
+
         binding.loginButtonFragmentLogin.setOnClickListener {
             navigateToWelcomeFragment()
         }
@@ -32,7 +33,6 @@ class loginFragment : Fragment() {
             navigateToWelcomeFragment()
         }
         return binding.root
-
     }
 
     private fun navigateToWelcomeFragment() {
